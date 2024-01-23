@@ -1,0 +1,215 @@
+body{
+    overflow-x: hidden;
+margin: 0px;
+padding: 0px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+.my_menu{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: #f37209;
+}
+.menu li{
+    list-style: none;
+    height: 60px;
+    width: 180px;
+    background-color: #f37209;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 60px;
+    float: left;
+    font-size: 22px;
+}
+.menu li:hover{
+    background-color: rgba(122, 134, 8, 0.685);
+}
+.menu li a:hover{
+    color: aqua;
+}
+.menu li a{
+    color: rgb(247, 242, 242);
+    display:block ;
+    text-decoration: none;  
+}
+.menu ul li{
+    margin: 0px;
+}
+.menu ul{
+    display: none;
+}
+.menu li:hover ul{
+display: block;
+}
+.welcome h1{
+    color: yellowgreen;
+    font-weight: bold;
+    font-size: 48px;
+}
+.welcome h2{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+}
+/*banner*/
+.slider_box{
+    width: 100%;
+    height: 580px;
+    margin: 5px;
+    overflow: hidden;
+}
+#slider{
+    width: 100%;
+    height: 580px;
+    display: inline-flex;
+    transition: 0.7s;
+}
+#slider img{
+    width: 100%;
+}
+.indicators{
+    position: absolute;
+    left: 50%;
+    bottom: 2px;
+    transform: translateX(-50%);
+}
+.indicators span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: rgba(255,255,0.5);
+
+}
+.active{
+    background: white !important;
+}
+/*why choose us 
+#why_choose{
+    width: 100%;
+    text-align: center;
+}
+#why_choose h1{
+    margin: 0 auto;
+    width: 180px;
+    text-align: center;
+    font-size: 30px;
+    color:red;
+    border-bottom: 2px solid red;   
+}
+.div_section1{
+    width: 20%;
+    height: 300px;
+    margin: 10px;
+    padding: 20px;
+    float: left;
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+    margin: 15px auto;
+    line-height: 90px;
+    font-size: 40px;
+    background-color: aqua;
+    border-radius: 50px;
+    transition-duration: 0.2s;
+}
+.icon:hover{
+    font-size:30px ;
+}
+*/
+/*section2*/
+.section2{
+    display: inline-block;
+   width: 100%;
+   text-align: center; 
+}
+.section2 h1{
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    font-size: 30px;
+    color:red;
+    border-bottom: 2px solid red;  
+}
+.div_section2{
+    width: 20%;
+    height: 300px;
+    margin: 15px;
+    padding: 15px;
+    float: left;
+}
+.div_section2 img{
+    width: 100%;
+    height: 200px;
+}
+.section3 h1{
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
+    font-size: 30px;
+    color:red;
+    border-bottom: 2px solid red;  
+}
+/*footer*/
+.footer{
+    margin-bottom: 0px;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.footer_div{
+    width: 25%;
+    height: 300px;
+    margin: 25px;
+    padding: 20px;
+    float: left;
+}
+.footer_div h1{
+    color:red;
+}
+.footer_div p{
+    color: white;
+}
+.footer_div button{
+    margin-top: 10px;
+    background-color: red;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 35px;
+}
+.footer_div ul li{
+    list-style: none;
+}
+.footer_div ul li a{
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: none;
+}
+.social_link{
+    color: white;
+}
+.under_footer{
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: white;
+}
+.footer1{
+    width: 50%;
+    float: left;
+}
+.footer1 p{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}

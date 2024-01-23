@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRASHAR COMPUTER INSTITUTE`</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<!--fontawesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <font size=48 color="coral"><b><i><pre>      PARASHAR</font>      <font size=48 color="black">COMPUTER</font>      <font size=48 color="darksaegreen">INSTITUTE</pre></b></i></font>
+   
+    <div class="my_menu">
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Courses   <i class="fa-regular fa-square-caret-down"></i></a>
+        <ul>
+            <li><a href="#">Application Course</a></li>
+            <li><a href="#">Hardware Course</a></li>
+            <li><a href="#">Professional Course</a></li>
+            <li><a href="#">Nielit Course</a></li>
+            <li><a href="#">University Course</a></li>
+       </ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+    </ul>
+</div><br>
+<br>
+<br><br><br>
+<!-- banner -->
+<div class="slider_box">
+    <!-- <video controls autoplay src="prashar.mp4"></video> -->
+    <div id="slider">
+    <img src="1stprashar_computer.png" alt="banner">
+    <img src="2ndprashar_computer.png" alt="banner">
+    <img src="prashar_computer.png" alt="banner"> 
+    <img src="lab.jpg" alt="banner">
+</div>
+<div class="indicators">
+    <span id="btn1" class="active"></span>
+    <span id="btn2"></span>
+    <span id="btn3"></span>
+    <span id="btn4"></span>
+</div>
+    </div>
+    <script>
+        var slide=document.getElementById("slider");
+        var btn1=document.getElementById("btn1");
+        var btn2=document.getElementById("btn2");
+        var btn3=document.getElementById("btn3");
+        var btn4=document.getElementById("btn4");
+
+        btn1.onclick = function(){
+            slide.style.transform ="translatex(0px)";
+            btn1.classList.add("active");
+            btn2.classList.remove("active");
+            btn3.classList.remove("active");
+            btn4.classList.remove("active");
+        }
+        btn2.onclick = function(){
+            slide.style.transform ="translatex(-100%)";
+            btn1.classList.remove("active");
+            btn2.classList.add("active");
+            btn3.classList.remove("active");
+            btn4.classList.remove("active");
+        }
+        btn3.onclick = function(){
+            slide.style.transform ="translatex(-200%)";
+            btn1.classList.remove("active");
+            btn2.classList.remove("active");
+            btn3.classList.add("active"); 
+            btn4.classList.remove("active");
+        }
+        btn4.onclick = function(){
+            slide.style.transform ="translatex(-300%)";
+            btn1.classList.remove("active");
+            btn2.classList.remove("active");
+            btn3.classList.remove("active");
+            btn4.classList.add("active");
+        }
+    </script>
+<div class="welcome">
+    <h1>welcome PRASHAR COMPUTER INSTITUTE</h1>
+    <h2>welcome to Prashar Computer Institute At Prashar Computer Institute, We belive in empowering individuals with the knowledge and skill needed to thrive in the digital age.</h2>
+</div>
+<br>
+<br>
+<!-- Why Choose Us 
+<section id="why_choose">
+    <h1>Why Us</h1>
+    <br>
+    <div class="div_section1">
+    <div class="icon"><i class="fa-solid fa-school"></i></div>
+    <h2>Huge Institute Campus</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic earum corrupti quis itaque libero laborum quam a adipisci recusandae excepturi ab facilis eaque natus eius fugit voluptatum, temporibus quidem saepe.</p>
+    </div>
+    <div class="div_section1">
+        <div class="icon"><i class="fa-solid fa-school"></i></div>
+        <h2>Huge Institute Campus</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic earum corrupti quis itaque libero laborum quam a adipisci recusandae excepturi ab facilis eaque natus eius fugit voluptatum, temporibus quidem saepe.</p>
+        </div>
+        <div class="div_section1">
+            <div class="icon"><i class="fa-solid fa-school"></i></div>
+            <h2>Huge Institute Campus</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic earum corrupti quis itaque libero laborum quam a adipisci recusandae excepturi ab facilis eaque natus eius fugit voluptatum, temporibus quidem saepe.</p>
+            </div>
+            <div class="div_section1">
+                <div class="icon"><i class="fa-solid fa-school"></i></div>
+                <h2>Huge Institute Campus</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic earum corrupti quis itaque libero laborum quam a adipisci recusandae excepturi ab facilis eaque natus eius fugit voluptatum, temporibus quidem saepe.</p>
+                </div>
+   </section>
+   -->
+   <!-- Our Institute Details -->
+   <section class="section2">
+    <br>
+    <br>
+    <h1>Our Institute Details</h1>
+    <div class="div_section2">
+        <br>
+        <br>
+        <img src="Admission.jpg" alt="pic">
+        <h2>Admission</h2>
+        <P>Admission Open Every Month's Date 1 to 7 & Time 10AM to 4PM Day MONDAY TO SATURDAY Contact for More information : +91 8406968660 , 8521239731 Admission Only For Offline.</P>
+    </div>
+    <div class="div_section2">
+        <br>
+        <br>
+        <img src="Popular.jpg" alt="pic">
+        <h2>Our Popular Course</h2>
+        <p>ADCA  DCA  PGDCA  CCA  CCC  BCC  ADIT  ADHN  HTML  HTML5  CSS  CSS3  JS  C  C++  JAVA  PYTHON  SQL  .....</p>
+    </div>
+    <div class="div_section2">
+        <br>
+        <br>
+        <img src="Directoar.jpg" alt="pic">
+        <h2>Managing Director</h2> 
+        <p>  Managing Director: Anurag Prashar BCA
+         Add : East champaran Bihar India 845437 Contact 📞 +91 8521239731 
+         E-mail : anuragsingh212397@gmail.com
+        
+        </p>
+    </div>
+    <div class="div_section2">
+        <br>
+        <br>
+        <img src="princpal.jpg" alt="pic">
+        <h2>Principal Message</h2>
+        <p>DEAR STUDENT'S, PARENT'S, AND WELL-WISHERS, WELCOME TO PRASHAR COMPUTER INSTITUTE WHERE EDUCATION MEETS INOVATION, AND DREAMS TRANSFROM INTO REALITY.</p>
+    </div>
+   </section>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+  <section class="section3"><h1>Privacy Policy</h1>  </section>
+   <p>
+    <h1>Privacy Policy For PRASHAR COMPUTER INSTITUTE</h1>
+    At PRSHAR COMPUTER INSTITUTE, accessible from ..., one of our main priorities is the privacy of our visitors. This Privacy Policy document contains type of information that are collected and recorded by PRASHAR COMPUTER INSTITUTE and how we use it.
+    If you have additional question or require more information about our Privacy Policy, do not hesitate to contact us through E-mail at info pcigayghat@gmail.com
+    <h1>Online Privacy Policy Only</h1>
+    This Privacy Policyapplies only to Our online activities and is valid for visitor to our website with regards to the information that they shared and/or collect in PRASHAR COMPUTER INSTITUTE. This policy is not applicable to any information collected ofline or channels other than website.
+</p>
+   <section class="footer">
+    <div class="footer_div">
+        <h1>About Us</h1>
+        <p>PRASHAR COMPUTER INSTITUTE Dream of educational India.
+            ALL THE COMPUTER COURSES OF 50% DISCOUNT ALL STUDENT & EVERY YEAR SCHOLARSHIP 100% 75% 50% 25% ANY COMPUTER COURSES SCHOLARSHIP EVERY YEAR JANUARY&FEBRUARY FORM FILL TIME ADMIT CARD ISSUE AND EXAM TIME FIRST WEEK MARCH. 
+            <br>
+            <button type="button">Read More</button>
+        </p>
+    </div>
+    <div class="footer_div">
+        <h1>About</h1>
+        <ul>
+            <li><a href="#">PRASHAR COMPUTER INSTITUTE</a></li>
+            <li><a href="#">NEAR HIGH SCHOOL GAYGHAT HARSIDDHI EAST CHAMPRAN BIHAR INDIA 845437</a></li>
+            <!-- <li><a href="#">About</a></li> -->
+            <!-- <li><a href="#">About</a></li> -->
+        </ul>
+    </div>
+    <div class="footer_div">
+        <h1>Social Link</h1>
+        <div class="social_link">
+            <i class="fa-brands fa-facebook fa-2x"></i>
+            <i class="fa-brands fa-twitter fa-2x"></i>
+            <i class="fa-brands fa-instagram fa-2x"></i>
+            <i class="fa-brands fa-linkedin fa-2x"></i>
+            <i class="fa-solid fa-envelope fa-2x"></i>
+            <i class="fa-brands fa-youtube fa-2x"></i>
+    </div>
+    </div>
+    <div class="under_footer">
+        <div class="footer1"><p>Copyright © 2023 PRASHAR COMPUTER INSTITUTE All Rights Reserved</p></div>
+        <div class="footer1"><p>Development By : Anurag Prashar</p></div>
+    </div>
+
+   </section>
+</body>
+</html>
