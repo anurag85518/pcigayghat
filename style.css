@@ -1,11 +1,17 @@
 body{
-    overflow-x: hidden;
-margin: 0px;
-padding: 0px;
+margin: 0rem;
+padding: 0rem;
+overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+    background-color: transparent;
+}
+body::-webkit-scrollbar-thumb{
+    background:linear-gradient(yellowgreen, red, blue)
 }
 ul{
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
 }
 .my_menu{
     position: absolute;
@@ -15,14 +21,14 @@ ul{
 }
 .menu li{
     list-style: none;
-    height: 60px;
-    width: 180px;
+    height: 4rem;
+    width: 11rem;
     background-color: #f37209;
-    margin-left: 10px;
+    margin-left: 1rem;
     text-align: center;
-    line-height: 60px;
+    line-height: 4rem;
     float: left;
-    font-size: 22px;
+    font-size: 1.5rem;
 }
 .menu li:hover{
     background-color: rgba(122, 134, 8, 0.685);
@@ -36,7 +42,7 @@ ul{
     text-decoration: none;  
 }
 .menu ul li{
-    margin: 0px;
+    margin: 0rem;
 }
 .menu ul{
     display: none;
@@ -47,23 +53,23 @@ display: block;
 .welcome h1{
     color: yellowgreen;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 3rem;
 }
 .welcome h2{
     color: black;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 /*banner*/
 .slider_box{
     width: 100%;
-    height: 580px;
-    margin: 5px;
+    height: 36rem;
+    margin: 0.5rem;
     overflow: hidden;
 }
 #slider{
     width: 100%;
-    height: 580px;
+    height: 36rem;
     display: inline-flex;
     transition: 0.7s;
 }
@@ -73,13 +79,13 @@ display: block;
 .indicators{
     position: absolute;
     left: 50%;
-    bottom: 2px;
+    bottom: 1rem;
     transform: translateX(-50%);
 }
 .indicators span{
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 1.5rem;
+    height: 1.5rem;
     border-radius: 50%;
     background: rgba(255,255,0.5);
 
@@ -130,34 +136,34 @@ display: block;
 }
 .section2 h1{
     margin: 0 auto;
-    width: 300px;
+    width: 19rem;
     text-align: center;
-    font-size: 30px;
+    font-size: 2rem;
     color:red;
-    border-bottom: 2px solid red;  
+    border-bottom: 0.5rem solid red;  
 }
 .div_section2{
     width: 20%;
-    height: 300px;
-    margin: 15px;
-    padding: 15px;
+    height: 19rem;
+    margin: 1rem;
+    padding: 1rem;
     float: left;
 }
 .div_section2 img{
     width: 100%;
-    height: 200px;
+    height: 13rem;
 }
 .section3 h1{
     margin: 0 auto;
-    width: 200px;
+    width: 13rem;
     text-align: center;
-    font-size: 30px;
+    font-size: 2rem;
     color:red;
-    border-bottom: 2px solid red;  
+    border-bottom: 0.5rem solid red;  
 }
 /*footer*/
 .footer{
-    margin-bottom: 0px;
+    margin-bottom: 0rem;
     position: absolute;
     width: 100%;
     height: auto;
@@ -165,9 +171,9 @@ display: block;
 }
 .footer_div{
     width: 25%;
-    height: 300px;
-    margin: 25px;
-    padding: 20px;
+    height: 19rem;
+    margin: 2rem;
+    padding: 1rem;
     float: left;
 }
 .footer_div h1{
@@ -177,19 +183,19 @@ display: block;
     color: white;
 }
 .footer_div button{
-    margin-top: 10px;
+    margin-top: 1rem;
     background-color: red;
     border: none;
     color: white;
-    width: 100px;
-    height: 35px;
+    width: 6.5rem;
+    height: 2rem;
 }
 .footer_div ul li{
     list-style: none;
 }
 .footer_div ul li a{
     color: white;
-    font-size: 19px;
+    font-size: 1rem;
     text-decoration: none;
     font-weight: bold;
     text-align: none;
@@ -200,7 +206,7 @@ display: block;
 .under_footer{
     display: inline-block;
     width: 100%;
-    height: 80px;
+    height: 5rem;
     text-align: center;
     background-color: white;
 }
@@ -211,5 +217,41 @@ display: block;
 .footer1 p{
     color: black;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
+ .wplogo{
+        height: 100px;
+        width: 150px;
+        position: fixed;
+        z-index: 99;
+        top: 73%;
+       /* right:0; */
+        margin: 15px;
+    }
+ 
+ @media only screen and (max-width: 600px) {
+    .wplogo{
+        height: 150px;
+        width: 2000px;
+        position: fixed;
+        z-index: 99;
+        top: 60%;
+       /* right:0; */
+        margin: 15px;
+    }
+    
+    .carousel-item .active{
+        height:24vh!important;
+    }
+}
+ 
+ 
+    .wplogo{
+        height: 150px;
+        width: 200px;
+        position: fixed;
+        z-index: 99;
+        top: 70%;
+        right:0; 
+        margin: 15px;
+    }
